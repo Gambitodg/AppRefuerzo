@@ -23,7 +23,8 @@ namespace ConicionalSwitch
                 case 1:
                     Console.WriteLine("Digite número:");
                     var numero = int.Parse(Console.ReadLine());
-                    Math.Sqrt(numero);
+                    var resraiz = Math.Sqrt(numero);
+                    Console.WriteLine($"La raiz del {numero} es : {resraiz}");
                 break;
                     
                 case 2:
@@ -31,20 +32,23 @@ namespace ConicionalSwitch
                     var bas = int.Parse(Console.ReadLine());
                     Console.WriteLine(" Digite el exponente:");
                     var exponente = int.Parse(Console.ReadLine());
-                    Math.Pow(bas,exponente);
-                break;
+                    var respotencia = Math.Pow(bas,exponente);
+                    Console.WriteLine($"La potencia es: {respotencia}");
+                    break;
 
                 case 3:
                     Console.WriteLine("Digite número:");
                     var numeroabs = int.Parse(Console.ReadLine());
-                    Math.Abs(numeroabs);
-                break;
+                    var resabsoluto = Math.Abs(numeroabs);
+                    Console.WriteLine($"El valor absoluto es: {resabsoluto}");
+                    break;
 
                 case 4:
                     Console.WriteLine("Digite número:");
                     var numerocua = int.Parse(Console.ReadLine());
-                    numerocua *= numerocua;
-                break;
+                    var rescua = numerocua *= numerocua;
+                    Console.WriteLine($"El cuadrado {numerocua} es : {rescua}");
+                    break;
 
                 case 5:
                     Console.ReadLine();
