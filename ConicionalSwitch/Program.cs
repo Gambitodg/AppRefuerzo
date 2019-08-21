@@ -5,6 +5,9 @@ namespace ConicionalSwitch
     class Program
     {
         //Elaborar un programa que me permita seleccionar operaciones a realizar
+        //Elaborar un programa que me permita seleccionar operaciones a realizar
+        //Elaborar un programa que me permita seleccionar operaciones a realizar
+        //Elaborar un programa que me permita seleccionar operaciones a realizar
         //Opción 1. Raiz
         //Opción 2. Potenciación
         //Opción 3. Valor Absoluto
